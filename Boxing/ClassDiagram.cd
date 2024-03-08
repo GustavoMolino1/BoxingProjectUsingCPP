@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Boxer">
+    <Position X="3.75" Y="5.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>QAAwAIAAAAAAAAhACAAAAAQAAQAAAQAoAAAoAAAAAAA=</HashCode>
+      <FileName>Boxer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoxingMatch">
+    <Position X="19" Y="6" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIBAAAQCoAAgCAAAAAACBSAAAAICAICgAEAAAAA=</HashCode>
+      <FileName>BoxingMatch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broadcast">
+    <Position X="13.75" Y="10.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAIAAACgICAEIAAAAAAAAAICAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Broadcast.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Championship">
+    <Position X="15.25" Y="1" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAEQAAAAAAAAAAAQAAAAAAAQAEEABAEAA0AAAAAQA=</HashCode>
+      <FileName>Championship.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Doctor">
+    <Position X="3" Y="1" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAIEAAAAAAAAAAAAAAIAAAAAICQAAACgAAAAAAA=</HashCode>
+      <FileName>Doctor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Judge">
+    <Position X="11.25" Y="1" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAQAAABAAAAAAAAABAAAACAAAAAAAAgAACAAAA=</HashCode>
+      <FileName>Judge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Location">
+    <Position X="19" Y="1" Width="5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAABAAgAAAAIAIAAAAAAAIEAABAAAAkAgAgAAI=</HashCode>
+      <FileName>Location.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Organization">
+    <Position X="13.75" Y="6" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAIAIAAACACAEAABAAAAkAggAIAA=</HashCode>
+      <FileName>Organization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Person">
+    <Position X="8.25" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAEAAAAAAQAAAAAAAAAAAAAAEAABEIAAkAAAAAAA=</HashCode>
+      <FileName>Person.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Referee">
+    <Position X="9.25" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAQAAABEAAAAAAAAAAAAAAAAAIAAAiAAAAAAI=</HashCode>
+      <FileName>Referee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Boxer">
+    <Position X="11" Y="9" Width="4.25" />
+    <NestedTypes>
+      <Enum Name="Boxer::eCategory" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Boxer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAYAAAAAACgAAgwQQAAgcCAAQAAgQAgAKggQAAAAIA=</HashCode>
+      <FileName>Boxer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broadcast">
+    <Position X="1" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAIACgIAIAIAAAAQAAAAACAAACAAAgAAAAAAA=</HashCode>
+      <FileName>Broadcast.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Person">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAEAAAAAARAAAQAAAAQAAAAAEAABAAAAkEAAAAAA=</HashCode>
+      <FileName>Person.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer">
+    <Position X="14.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoxingMatch">
+    <Position X="6" Y="13.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="BoxingMatch::ePunch" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BoxingMatch.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAAIAQBQIAQCAIAACACASQAABQAAACIABoCgAkQAAQA=</HashCode>
+      <FileName>BoxingMatch.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="referee" />
+      <Field Name="winner" />
+      <Field Name="observers" />
+      <Field Name="judges" />
+      <Field Name="doctor" />
+      <Field Name="boxers" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Championship">
+    <Position X="18.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAACQAAAQAEEAAAAAAkAAABAAA=</HashCode>
+      <FileName>Championship.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentChampion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Doctor">
+    <Position X="16.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAIEAAAAAAIAQAAAAYIAAAAAACQAAACgUAAQAAA=</HashCode>
+      <FileName>Doctor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Employee">
+    <Position X="3.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAgAAIgAAAAAYAACAAAAAAABAAgAAAAAAQ=</HashCode>
+      <FileName>Employee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Judge">
+    <Position X="8.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIgQAgAAQCAAAAAgAAAAAAgEACAAAA=</HashCode>
+      <FileName>Judge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="League">
+    <Position X="3.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKAQgEAAgAARKAAAAIACAAAEAABAAICsAEIAABA=</HashCode>
+      <FileName>League.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="boxers" />
+      <Field Name="broadcast" />
+      <Field Name="champion" />
+      <Field Name="doctors" />
+      <Field Name="judges" />
+      <Field Name="location" />
+      <Field Name="matches" />
+      <Field Name="referees" />
+      <Field Name="myJudges" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Location" Collapsed="true">
+    <Position X="14.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAgAAAAIAIAAQAAAAIAAAAAAAAgAgAgAAY=</HashCode>
+      <FileName>Location.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Organization">
+    <Position X="20.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cAAQAJEDAECAgABAAACAxcABxEaE4hRCgABkIoAAoQI=</HashCode>
+      <FileName>Organization.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="allBoxers" />
+      <Field Name="allDoctors" />
+      <Field Name="allEmployee" />
+      <Field Name="allReferees" />
+      <Field Name="allJudges" />
+      <Field Name="LeagueNodeList" />
+      <Field Name="theOrganization" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Referee">
+    <Position X="8.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAIAACAAAAQAAAAAAAAAAAAAiUAAAAAA=</HashCode>
+      <FileName>Referee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>A2AAEYEiALJsCEBAAOMIIAASEEUAQBIggQkwAgAFUko=</HashCode>
+      <FileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NodeLinked&lt;L&gt;" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAgIAAAAAEAAAAQAAAAAEAAAAAAAAAAAACAgA=</HashCode>
+      <FileName>NodeLinked.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="node&lt;L&gt;" Collapsed="true">
+    <Position X="22" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAIAAAA=</HashCode>
+      <FileName>NodeLinked.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
